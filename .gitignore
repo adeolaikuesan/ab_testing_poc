@@ -1,0 +1,9 @@
+node_modules
+dist
+*.local
+.DS_Store
+*.tsbuildinfo
+
+# POC only: deps are pinned loosely and this tree gets copy-pasted, so the
+# lockfile is not tracked. Run `npm install` to generate one locally.
+package-lock.json
